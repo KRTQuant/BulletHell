@@ -14,12 +14,11 @@ public class ShipMovement : MonoBehaviour
 
     public int dir;
 
-    // Update is called once per frame
     public void Update()
     {
         SetDir();
-        CalculateVelo(dir);
         InputCenter();
+        CalculateVelo(dir);
     }
 
     public void CalculateVelo(int dir)
