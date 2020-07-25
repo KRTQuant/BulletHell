@@ -84,8 +84,8 @@ public class EnemyShootPlayer : MonoBehaviour
         Vector3 dirGunLeft = player.position - gunLeftTrans.position;
         Vector3 dirGunRight = player.position - gunRightTrans.position;
 
-        float angleGunLeft = Mathf.Atan2(dirGunLeft.x, -dirGunLeft.y) * Mathf.Rad2Deg;
-        float angleGunRight = Mathf.Atan2(dirGunRight.x, -dirGunRight.y) * Mathf.Rad2Deg;
+        float angleGunLeft = Mathf.Atan2(-dirGunLeft.x, dirGunLeft.y) * Mathf.Rad2Deg;
+        float angleGunRight = Mathf.Atan2(-dirGunRight.x, dirGunRight.y) * Mathf.Rad2Deg;
 
         Rigidbody2D gunLeftRb = GameObject.Find("GunMuzzleLeft").GetComponent<Rigidbody2D>();
         Rigidbody2D gunRightRb = GameObject.Find("GunMuzzleRight").GetComponent<Rigidbody2D>();
