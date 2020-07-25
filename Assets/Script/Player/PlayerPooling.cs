@@ -25,7 +25,7 @@ public class PlayerPooling : MonoBehaviour
             bulletPlayer.transform.parent = bulletParent;
             bulletPlayer.SetActive(false);
         }
-        Debug.Log("bullet in player list's  = " + bulletList.Count);
+        //Debug.Log("bullet in player list's  = " + bulletList.Count);
         PlayerBulletRef.SetActive(false);
     }
 }
