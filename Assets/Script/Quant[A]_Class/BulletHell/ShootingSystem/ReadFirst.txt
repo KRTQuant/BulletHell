@@ -1,0 +1,5 @@
+Bullet Pattern 1 : 
+	Get Player Position and shoot a bullet through that vector
+Bullet Pattern 2 : 
+	Spiral bullet [ Clockwise ]
+		X control by Position.x + Mathf.Sin((Angle * Mathf.PI) * 180)

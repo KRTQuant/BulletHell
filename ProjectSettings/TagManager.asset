@@ -3,7 +3,10 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - Enemy
+  - Boss
+  - EnemyBullet
   layers:
   - Default
   - TransparentFX
@@ -40,4 +43,16 @@ TagManager:
   m_SortingLayers:
   - name: Default
     uniqueID: 0
+    locked: 0
+  - name: Background
+    uniqueID: 1414259053
+    locked: 0
+  - name: NPC
+    uniqueID: 2488375143
+    locked: 0
+  - name: Bullet
+    uniqueID: 1316762975
+    locked: 0
+  - name: Player
+    uniqueID: 2696944195
     locked: 0
